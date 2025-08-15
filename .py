@@ -1,5 +1,6 @@
-nome = input('Qual é o seu nome?')
-idade = input('Quantos anos você tem?')
-cidade = input('Em qual cidade você mora?')
+N1 = int(input ('Digite um número:'))
+N2 = int(input ('Digite outro número:'))
 
-print (f"Olá, {nome}! Você tem {idade} anos e é de {cidade}! Seja bem vindo(a)!" )
+soma = N1 + N2
+
+print( f'{N1} + {N2} = {soma}')
